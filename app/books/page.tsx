@@ -5,8 +5,8 @@ export default function BooksPage() {
   return (
     <div className="space-y-4">
       <h1>
-        This is not a comprehensive list of everything I've read but it's a good
-        list
+        This is not a comprehensive list of everything I&apos;ve read but
+        it&apos;s a good list
       </h1>
       {/* <Link href="#2025">2025</Link>
       <Link href="#2024">2024</Link>
