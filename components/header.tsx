@@ -1,10 +1,4 @@
 import Link from "next/link";
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-} from "./ui/navigation-menu";
 
 export function Header() {
   return (
