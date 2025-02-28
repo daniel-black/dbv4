@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeToggle } from "./theme-toggle";
 
 const links = [
   { href: "/", text: "HOME" },
@@ -23,6 +24,9 @@ export function Header() {
           isActive={pathname === link.href}
         />
       ))}
+      <div className="hidden sm:block">
+        <ThemeToggle />
+      </div>
     </nav>
   );
 }
