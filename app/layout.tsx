@@ -28,7 +28,11 @@ export default function RootLayout({
     <html
       lang="en"
       className="light"
-      style={{ scrollBehavior: "smooth", colorScheme: "light" }}
+      style={{
+        scrollBehavior: "smooth",
+        colorScheme: "light",
+        scrollbarGutter: "stable",
+      }}
     >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full`}
