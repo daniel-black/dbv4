@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function BooksPage() {
   return (
-    <div className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10">
+    <div className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
       <div className="space-y-3">
         <h2 className="text-3xl font-semibold">My reading list</h2>
         <p className="text-muted-foreground">
@@ -16,79 +16,66 @@ export default function BooksPage() {
 
       <div className="space-y-10">
         <div className="space-y-5">
-          <div
-            className="sticky top-0 sm:top-14 bg-black text-white w-full h-10 font-mono flex items-center justify-center"
-            id="2025"
-          >
-            2025
-            <Link
-              href="/books#2024"
-              className="absolute right-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
-            >
-              ↓
-            </Link>
-          </div>
-          <ul className="space-y-10 -z-10">
-            {books["2025"].map((book) => (
-              <li key={book.title}>
-                <Book {...book} />
-              </li>
-            ))}
-          </ul>
+          <StickyYear year="2025" previousYear="2024" />
+          <BookList year="2025" />
         </div>
 
         <div className="space-y-5">
-          <div
-            className="sticky top-0 sm:top-14 bg-black text-white w-full h-10 font-mono flex items-center justify-center"
-            id="2024"
-          >
-            <Link
-              href="/books#2025"
-              className="absolute left-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
-            >
-              ↑
-            </Link>
-            2024
-            <Link
-              href="/books#2023"
-              className="absolute right-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
-            >
-              ↓
-            </Link>
-          </div>
-          <ul className="space-y-10">
-            {books["2024"].map((book) => (
-              <li key={book.title}>
-                <Book {...book} />
-              </li>
-            ))}
-          </ul>
+          <StickyYear year="2024" previousYear="2023" nextYear="2025" />
+          <BookList year="2024" />
         </div>
 
         <div className="space-y-5">
-          <div
-            className="sticky top-0 sm:top-14 bg-black text-white w-full h-10 font-mono flex items-center justify-center"
-            id="2023"
-          >
-            <Link
-              href="/books#2024"
-              className="absolute left-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
-            >
-              ↑
-            </Link>
-            2023 and prior
-          </div>
-
-          <ul className="space-y-10">
-            {books["2023"].map((book) => (
-              <li key={book.title}>
-                <Book {...book} />
-              </li>
-            ))}
-          </ul>
+          <StickyYear year="2023" extraText="and prior" nextYear="2024" />
+          <BookList year="2023" />
         </div>
       </div>
     </div>
+  );
+}
+
+function StickyYear(props: {
+  year: string;
+  extraText?: string;
+  previousYear?: string;
+  nextYear?: string;
+}) {
+  return (
+    <div
+      className="sticky top-0 sm:top-14 bg-secondary-foreground text-secondary w-full h-10 font-mono flex items-center justify-center"
+      id={props.year}
+    >
+      {props.nextYear && (
+        <Link
+          href={`/books#${props.nextYear}`}
+          className="absolute left-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
+        >
+          ↑
+        </Link>
+      )}
+      {props.year}
+      {props.extraText && ` ${props.extraText}`}
+      {props.previousYear && (
+        <Link
+          href={`/books#${props.previousYear}`}
+          className="absolute right-3 text-secondary text-sm border border-dashed border-black hover:border-white w-6 h-6 flex justify-center items-center rounded-full transition-all duration-75"
+        >
+          ↓
+        </Link>
+      )}
+    </div>
+  );
+}
+
+function BookList({ year }: { year: "2023" | "2024" | "2025" }) {
+  return (
+    <ul className="space-y-10">
+      {books[year].map((book) => (
+        <li key={book.title}>
+          <Book {...book} />
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -108,7 +95,7 @@ function Book({
       <div className="p-4 flex justify-between">
         <div>
           <h3 className="font-semibold">{title}</h3>
-          <span className="text-sm">by {author}</span>
+          <span className="text-sm text-muted-foreground">by {author}</span>
         </div>
         {link && (
           <a href={link} target="_blank">

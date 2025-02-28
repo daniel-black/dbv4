@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="mx-auto max-w-xl">
+    <main className="mx-auto w-full max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
       <div className="flex gap-10 flex-col-reverse sm:flex-row items-center">
         <div className="space-y-8">
           <h1 className="text-3xl tracking-tight text-center">DANIEL BLACK</h1>
