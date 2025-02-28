@@ -8,29 +8,31 @@ import {
 
 export function Header() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
-            <NavigationMenuLink>ABOUT</NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/projects" legacyBehavior passHref>
-            <NavigationMenuLink>PROJECTS</NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/blog" legacyBehavior passHref>
-            <NavigationMenuLink>BLOG</NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/books" legacyBehavior passHref>
-            <NavigationMenuLink>BOOKS</NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+    <nav className="fixed bottom-0 z-50 sm:top-0 w-full bg-background/70 backdrop-blur-sm border-t border-b-0 sm:border-b sm:border-t-0 sm:h-14 flex items-center justify-between sm:justify-center divide-x text-sm sm:text-base sm:tracking-wide md:tracking-wider lg:tracking-widest">
+      <Link
+        href="/"
+        className="h-full flex-1 flex items-center justify-center px-2 sm:px-8 cursor-pointer"
+      >
+        HOME
+      </Link>
+      <Link
+        href="/projects"
+        className="h-full flex-1 flex items-center justify-center px-2 sm:px-8 cursor-pointer"
+      >
+        PROJECTS
+      </Link>
+      <Link
+        href="/blog"
+        className="h-full flex-1 flex items-center justify-center px-2 sm:px-8 cursor-pointer"
+      >
+        BLOG
+      </Link>
+      <Link
+        href="/books"
+        className="h-full flex-1 flex items-center justify-center px-2 sm:px-8 cursor-pointer"
+      >
+        BOOKS
+      </Link>
+    </nav>
   );
 }

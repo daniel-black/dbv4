@@ -24,18 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full`}
       >
-        <main className="mx-auto w-full max-w-2xl py-10">
+        <main>
           <div className="space-y-4 mb-8">
-            <h1 className="text-2xl font-semibold tracking-tight">
-              Daniel Black
-            </h1>
             <Header />
           </div>
-          {children}
+          <div className="mb-14 mt-0 sm:mb-0 sm:mt-14">{children}</div>
         </main>
       </body>
     </html>
