@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-// @ts-expect-error
+// @ts-expect-error: canvas-confetti is not typed
 import confetti from "canvas-confetti";
 
 export function FunImage() {
