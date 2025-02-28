@@ -12,7 +12,6 @@ const links = [
 
 export function Header() {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <nav className="fixed bottom-0 z-50 sm:top-0 w-full bg-background/70 backdrop-blur-sm border-t border-b-0 sm:border-b sm:border-t-0 h-14 flex items-center justify-between sm:justify-center divide-x text-sm sm:text-base sm:tracking-wide md:tracking-wider lg:tracking-widest">

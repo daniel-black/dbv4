@@ -1,25 +1,30 @@
 export default function Home() {
   return (
     <main className="mx-auto w-full max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
-      <div className="flex gap-10 flex-col-reverse sm:flex-row items-center">
-        <div className="space-y-8">
-          <h1 className="text-3xl tracking-tight text-center">DANIEL BLACK</h1>
-          <p>I am a software engineer living in Denver Colorado.</p>
-          <p>I work from home for C.H. Robinson.</p>
+      <div className="flex flex-col-reverse sm:flex-row sm:justify-between gap-5">
+        <div className="space-y-5">
+          <h2 className="text-3xl font-semibold">Daniel Black</h2>
           <p>
-            I enjoy spending my time with my beautiful fiance, Stephanie, and
-            our sweet puppy dog, Nala.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+            praesentium quam tempora quis earum facilis neque recusandae culpa
+            voluptatibus atque modi dolorum? Necessitatibus inventore molestiae
+            incidunt voluptatum nesciunt explicabo quibusdam laborum! Commodi
+            ipsam quo iusto unde velit consectetur, officia voluptatem porro
+            laudantium quis aliquam nemo animi labore saepe temporibus esse.
           </p>
-          <p>I like to read, write, learn new things, and make stuff.</p>
-          {/* <p>
-            If you would like to get into contact, email me at
-            drblack651@gmail.com
-          </p> */}
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda,
+            praesentium quam tempora quis earum facilis neque recusandae culpa
+            voluptatibus atque modi dolorum? Necessitatibus inventore molestiae
+            incidunt voluptatum nesciunt explicabo quibusdam laborum! Commodi
+            ipsam quo iusto unde velit consectetur, officia voluptatem porro
+            laudantium quis aliquam nemo animi labore saepe temporibus esse.
+          </p>
         </div>
         <img
           src="/image.png"
           alt="Dan Black"
-          className="rounded-b-full sm:rounded-b-none sm:rounded-r-full border block max-h-fit"
+          className="border block max-h-fit rounded-r-full"
           width={300}
           height={437}
         />
