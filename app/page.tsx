@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="mx-auto max-w-xl py-10">
-      <div className="flex gap-10">
+    <main className="mx-auto max-w-xl">
+      <div className="flex gap-10 flex-col-reverse sm:flex-row items-center">
         <div className="space-y-8">
-          <h1 className="text-3xl tracking-tight ">DANIEL BLACK</h1>
+          <h1 className="text-3xl tracking-tight text-center">DANIEL BLACK</h1>
           <p>I am a software engineer living in Denver Colorado.</p>
           <p>I work from home for C.H. Robinson.</p>
           <p>
@@ -19,7 +19,7 @@ export default function Home() {
         <img
           src="/image.png"
           alt="Dan Black"
-          className="rounded-r-full border block"
+          className="rounded-t-full sm:rounded-t-none sm:rounded-r-full border block max-h-fit"
           width={300}
           height={437}
         />

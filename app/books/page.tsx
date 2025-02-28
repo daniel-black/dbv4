@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function BooksPage() {
   return (
-    <div className="space-y-5 w-full mx-auto max-w-xl py-10">
+    <div className="space-y-5 w-full mx-auto max-w-xl px-4 pb-10">
       <div className="space-y-3">
         <h2 className="text-3xl font-semibold">My reading list</h2>
         <p>
