@@ -24,9 +24,7 @@ export function Header() {
           isActive={pathname === link.href}
         />
       ))}
-      <div className="hidden sm:block">
-        <ThemeToggle />
-      </div>
+      <ThemeToggle />
     </nav>
   );
 }
