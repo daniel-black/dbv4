@@ -1,6 +1,12 @@
 import Link from "next/link";
 import { books } from "./data";
 import { ArrowUpRight } from "lucide-react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Daniel Black ⋅ Books",
+  description: "A list of books I have read and enjoyed.",
+};
 
 export default function BooksPage() {
   return (

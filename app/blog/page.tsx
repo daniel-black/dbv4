@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Daniel Black ⋅ Blog",
+  description: "Daniel Black's blog posts.",
+};
+
 export default function BlogPage() {
   return (
     <div className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
