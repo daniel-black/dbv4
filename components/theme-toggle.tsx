@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 
 import {
   DropdownMenu,
+  DropdownMenuCheckboxItem,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
@@ -16,9 +17,15 @@ export function ThemeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button className="w-14 h-14 flex items-center justify-center focus:outline-none">
-          <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-          <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+        <button className="w-14 h-14 flex items-center justify-center focus:outline-none text-muted-foreground">
+          <Sun
+            className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+            strokeWidth="1.5"
+          />
+          <Moon
+            className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"
+            strokeWidth="1.5"
+          />
           <span className="sr-only">Toggle theme</span>
         </button>
       </DropdownMenuTrigger>
