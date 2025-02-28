@@ -19,7 +19,7 @@ export default function Home() {
         <img
           src="/image.png"
           alt="Dan Black"
-          className="rounded-t-full sm:rounded-t-none sm:rounded-r-full border block max-h-fit"
+          className="rounded-b-full sm:rounded-b-none sm:rounded-r-full border block max-h-fit"
           width={300}
           height={437}
         />

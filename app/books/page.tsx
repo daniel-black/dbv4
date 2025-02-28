@@ -4,10 +4,10 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function BooksPage() {
   return (
-    <div className="space-y-5 w-full mx-auto max-w-xl px-4 pb-10">
+    <div className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10">
       <div className="space-y-3">
         <h2 className="text-3xl font-semibold">My reading list</h2>
-        <p>
+        <p className="text-muted-foreground">
           Not a comprehensive list but these are some of the titles I have been
           digging into over the years. Girard and McLuhan are two of my
           favorites and have been a big influence on my thinking.
