@@ -1,5 +1,4 @@
 import { FunImage } from "@/components/fun-image";
-import Link from "next/link";
 
 export default function Home() {
   return (
