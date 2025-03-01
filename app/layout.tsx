@@ -35,9 +35,11 @@ export default function RootLayout({
         colorScheme: "light",
       }}
     >
-      <GoogleAnalytics
-        gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID ?? ""}
-      />
+      {process.env.NODE_ENV === "production" ? (
+        <GoogleAnalytics
+          gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID ?? ""}
+        />
+      ) : null}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full`}
       >
