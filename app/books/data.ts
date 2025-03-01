@@ -1,6 +1,12 @@
 export const books = {
   "2025": [
     {
+      title: "The Technological Republic",
+      author: "Alex Karp",
+      description: "Currently reading.",
+      link: "https://www.amazon.com/dp/0593798694",
+    },
+    {
       title: "The Scapegoat",
       author: "René Girard",
       description:
