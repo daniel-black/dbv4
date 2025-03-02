@@ -27,9 +27,10 @@ export default function ProjectsPage() {
               pdfdark.com
             </a>
             <p className="text-muted-foreground mt-4">
-              A super simple website that lets users view a PDF in "dark mode".
-              It does this by inverting the colors of the PDF with CSS. This is
-              rough for images and graphics, but works well for text.
+              A super simple website that lets users view a PDF in &quot;dark
+              mode&quot;. It does this by inverting the colors of the PDF with
+              CSS. This is rough for images and graphics, but works well for
+              text.
             </p>
           </li>
         </ul>
