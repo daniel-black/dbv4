@@ -14,6 +14,26 @@ export default function ProjectsPage() {
           I am working on starting less and finishing more.
         </p>
       </div>
+
+      <div>
+        <ul>
+          <li className="border border-dashed p-4">
+            <h3 className="text-xl font-semibold">PDF Dark</h3>
+            <a
+              href="https://pdfdark.com"
+              target="_blank"
+              className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
+            >
+              pdfdark.com
+            </a>
+            <p className="text-muted-foreground mt-4">
+              A super simple website that lets users view a PDF in "dark mode".
+              It does this by inverting the colors of the PDF with CSS. This is
+              rough for images and graphics, but works well for text.
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
