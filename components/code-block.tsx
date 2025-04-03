@@ -12,8 +12,7 @@ export function CodeBlock(props: { children: string }) {
           const match = /language-(\w+)/.exec(className || "");
           return match ? (
             <SyntaxHighlighter
-              // @ts-ignore
-              // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+              // @ts-expect-error
               style={nord}
               language={match[1]}
               PreTag="div"
