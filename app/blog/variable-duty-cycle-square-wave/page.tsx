@@ -64,9 +64,9 @@ const osc = new OscillatorNode(ctx, {
       </p>
       <p>
         Seems like we have our square wave, pretty easy right? Unfortunately no,
-        not quite. Oscillators with the type "square" only allow for a duty
-        cycle of 50%. This means that for one cycle, the wave is high for half
-        the time and low for the other half.
+        not quite. Oscillators with the type &quot;square&quot; only allow for a
+        duty cycle of 50%. This means that for one cycle, the wave is high for
+        half the time and low for the other half.
       </p>
       <p>
         One of the neat things about the Gameboy was that its two pulse channels
@@ -200,9 +200,9 @@ oscillator.connect(waveShaper);
       <WaveshaperVariableDutyCycleSquareWaveDemo />
       <p>
         You might notice that the square waves created with the Waveshaper
-        approach sound "buzzier" than the Fourier Series approach. This is
-        because the Waveshaper approach creates an almost mathematically perfect
-        square wave with extremely sharp transitions.
+        approach sound &quot;buzzier&quot; than the Fourier Series approach.
+        This is because the Waveshaper approach creates an almost mathematically
+        perfect square wave with extremely sharp transitions.
       </p>
       <p>
         There are pros and cons to each approach. One of the cons of the Fourier

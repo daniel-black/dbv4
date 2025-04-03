@@ -7,9 +7,8 @@ import { nord as codeStyle } from "react-syntax-highlighter/dist/esm/styles/pris
 export function CodeBlock(props: { children: string }) {
   return (
     <ReactMarkdown
-      children={props.children}
       components={{
-        code: ({ node, className, children, ...props }) => {
+        code: ({ className, children, ...props }) => {
           const match = /language-(\w+)/.exec(className || "");
           return match ? (
             <SyntaxHighlighter
@@ -26,6 +25,8 @@ export function CodeBlock(props: { children: string }) {
           );
         },
       }}
-    />
+    >
+      {props.children}
+    </ReactMarkdown>
   );
 }

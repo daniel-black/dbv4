@@ -31,8 +31,7 @@ export function FourierVariableDutyCycleSquareWaveDemo() {
   // Initialize AudioContext and GainNode
   const initializeAudio = () => {
     if (!audioContextRef.current) {
-      audioContextRef.current = new (window.AudioContext ||
-        (window as any).webkitAudioContext)();
+      audioContextRef.current = new window.AudioContext();
 
       // Create gain node
       gainNodeRef.current = audioContextRef.current.createGain();
