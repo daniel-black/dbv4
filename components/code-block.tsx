@@ -12,12 +12,13 @@ export function CodeBlock(props: { children: string }) {
           const match = /language-(\w+)/.exec(className || "");
           return match ? (
             <SyntaxHighlighter
-              children={String(children).replace(/\n$/, "")}
               style={codeStyle}
               language={match[1]}
               PreTag="div"
               {...props}
-            />
+            >
+              {String(children).replace(/\n$/, "")}
+            </SyntaxHighlighter>
           ) : (
             <code className={className} {...props}>
               {children}
