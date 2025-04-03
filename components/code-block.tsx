@@ -2,7 +2,7 @@
 
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { nord as codeStyle } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { nord } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export function CodeBlock(props: { children: string }) {
   return (
@@ -12,7 +12,9 @@ export function CodeBlock(props: { children: string }) {
           const match = /language-(\w+)/.exec(className || "");
           return match ? (
             <SyntaxHighlighter
-              style={codeStyle}
+              // @ts-ignore
+              // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+              style={nord}
               language={match[1]}
               PreTag="div"
               {...props}
