@@ -12,7 +12,7 @@ export function CodeBlock(props: { children: string }) {
           const match = /language-(\w+)/.exec(className || "");
           return match ? (
             <SyntaxHighlighter
-              // @ts-expect-error
+              // @ts-expect-error: dude please what the hell idk why the types are bad but just let me do this
               style={nord}
               language={match[1]}
               PreTag="div"
