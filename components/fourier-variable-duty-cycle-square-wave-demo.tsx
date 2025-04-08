@@ -123,10 +123,21 @@ export function FourierVariableDutyCycleSquareWaveDemo() {
     const newDutyCycle = parseFloat(value);
     setDutyCycle(newDutyCycle);
 
-    // If playing, update the sound immediately
+    // If playing, update the sound immediately with the new value
     if (isPlaying && audioContextRef.current) {
       stopSound();
-      playSound();
+
+      // Create and play with the new duty cycle directly
+      const audioContext = audioContextRef.current;
+      const oscillator = createSquareWaveWithFourier(
+        audioContext,
+        440,
+        newDutyCycle // Use the new value directly instead of the state
+      );
+      oscillator.connect(gainNodeRef.current!);
+      oscillator.start();
+      oscillatorRef.current = oscillator;
+      setIsPlaying(true);
     }
   };
 

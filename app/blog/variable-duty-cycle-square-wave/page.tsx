@@ -12,7 +12,7 @@ export default function VariableDutyCycleSquareWaveBlog() {
       </h1>
       <div className="flex flex-col text-muted-foreground text-xs">
         <span>Created on 4/2/2025</span>
-        <span>Updated on 4/2/2025</span>
+        <span>Updated on 4/7/2025</span>
       </div>
       <p>
         Lately, I&apos;ve been playing around with the{" "}
