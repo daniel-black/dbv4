@@ -18,6 +18,25 @@ export default function ProjectsPage() {
       <div>
         <ul>
           <li className="border border-dashed p-4">
+            <h3 className="text-xl font-semibold">Gameboy Tracker</h3>
+            <a
+              href="https://gameboy-tracker.vercel.app"
+              target="_blank"
+              className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
+            >
+              gameboy-tracker.vercel.app
+            </a>
+            <p className="text-muted-foreground mt-4">
+              A tracker for creating music in the style of the Gameboy. The
+              audio sythesis is all done in the browser with the Web Audio API.
+              Still under active development.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li className="border border-dashed p-4">
             <h3 className="text-xl font-semibold">PDF Dark</h3>
             <a
               href="https://pdfdark.com"
