@@ -21,7 +21,7 @@ export default function BlogPage() {
               href="/blog/the-problem-with-book-apps"
               className="text-blue-600 underline underline-offset-4"
             >
-              The Problem with "Book Apps"
+              The Problem with &quot;Book Apps&quot;
             </Link>
             <span className="text-xs text-muted-foreground">4/2/2025</span>
           </li>

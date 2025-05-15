@@ -2,7 +2,7 @@ export default function TheProblemWithBookApps() {
   return (
     <div className="space-y-5">
       <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
-        The Problem with "Book Apps"
+        The Problem with &quot;Book Apps&quot;
       </h1>
       <div className="flex flex-col text-muted-foreground text-xs">
         <span>Created on 5/14/2025</span>
@@ -34,27 +34,28 @@ export default function TheProblemWithBookApps() {
       <p>
         Books are quite the opposite. The experience is slow, single-player, and
         highly disjounted. The Goodreads UX of{" "}
-        <i>"when did you start reading this book?"</i>,{" "}
-        <i>"what page are you on now?"</i>,{" "}
-        <i>"when did you finish this book?"</i> is incredibly cumbersome. It
-        will never be as clean as clicking the "watched" button next to a movie
-        poster. It can&apos;t be. Books are a solitary experience. Yes, you
-        might read a book as part of a book club but still the actual experience
-        of <i>reading</i> is done by you and you alone. Outside of maybe the
-        Harry Potter books when they were coming out and had all the hype, when
-        can you honestly say that everyone was reading the same book at the same
-        time? That just does not happen for this medium. I might be reading a
-        book from 150 years ago - how many people on the planet are
-        simultaneously reading that book? Not that many, certainly not enough to
-        sustain a vibrant, social meta-discourse.
+        <i>&quot;when did you start reading this book?&quot;</i>,{" "}
+        <i>&quot;what page are you on now?&quot;</i>,{" "}
+        <i>&quot;when did you finish this book?&quot;</i> is incredibly
+        cumbersome. It will never be as clean as clicking the
+        &quot;watched&quot; button next to a movie poster. It can&apos;t be.
+        Books are a solitary experience. Yes, you might read a book as part of a
+        book club but still the actual experience of <i>reading</i> is done by
+        you and you alone. Outside of maybe the Harry Potter books when they
+        were coming out and had all the hype, when can you honestly say that
+        everyone was reading the same book at the same time? That just does not
+        happen for this medium. I might be reading a book from 150 years ago -
+        how many people on the planet are simultaneously reading that book? Not
+        that many, certainly not enough to sustain a vibrant, social
+        meta-discourse.
       </p>
       <p>
         This is the difference. Apps like Letterboxd feel fun, social, topical,
         and cultural. This is because movies really are all those things. The
         experience of using Goodreads feels like volunteering for a sad and
         tired data entry job. It is simply a chore. I think this is the biggest
-        mistake that "book apps" make. They try to bolt on a social experience
-        to a medium that is, by its very nature, solitary.
+        mistake that &quot;book apps&quot; make. They try to bolt on a social
+        experience to a medium that is, by its very nature, solitary.
       </p>
       <p>
         This opens up an interesting line of questioning. What would a book app
