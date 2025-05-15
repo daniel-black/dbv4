@@ -6,7 +6,6 @@ export default function TheProblemWithBookApps() {
       </h1>
       <div className="flex flex-col text-muted-foreground text-xs">
         <span>Created on 5/14/2025</span>
-        {/* <span>Updated on 5/14/2025</span> */}
       </div>
       <p>
         Goodreads is a classic example of a product that sounds good in theory

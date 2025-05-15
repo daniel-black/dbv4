@@ -23,7 +23,7 @@ export default function BlogPage() {
             >
               The Problem with &quot;Book Apps&quot;
             </Link>
-            <span className="text-xs text-muted-foreground">4/2/2025</span>
+            <span className="text-xs text-muted-foreground">5/14/2025</span>
           </li>
           <li className="flex flex-col gap-1">
             <Link
