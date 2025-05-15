@@ -3,7 +3,8 @@ export const books = {
     {
       title: "The Technological Republic",
       author: "Alex Karp",
-      description: "Currently reading.",
+      description:
+        "This is a really good book and you should read it. Karp critiques tech from the angle that we have not done enough to protect and defend our way of life in the West. He rails against vapid and vacous pursuits. At it's outset, tech was closely intertwined with the DoD. Over time, founders and engineers distanced themselves from the defense industry. It was much more palitable to work on a fun snapchat filter rather than defense tech. Focus shifted more towards individualist, consumerist products. Fewer people were asking hey what company should exist for our collective good, for the good of the nation? Recent events remind us that the world is actually a very dangerous place. It is important that we incentivize our best and brightest to work on meaningful, hard problems. No more abdication of responsibilities, my friends. We are not in the 2010s anymore.",
       link: "https://www.amazon.com/dp/0593798694",
     },
     {
