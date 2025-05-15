@@ -15,7 +15,16 @@ export default function BlogPage() {
       </p>
       <div>
         <p>posts:</p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside space-y-2">
+          <li className="flex flex-col gap-1">
+            <Link
+              href="/blog/the-problem-with-book-apps"
+              className="text-blue-600 underline underline-offset-4"
+            >
+              The Problem with "Book Apps"
+            </Link>
+            <span className="text-xs text-muted-foreground">4/2/2025</span>
+          </li>
           <li className="flex flex-col gap-1">
             <Link
               href="/blog/variable-duty-cycle-square-wave"
