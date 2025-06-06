@@ -1,6 +1,12 @@
 export const books = {
   "2025": [
     {
+      title: "Letters to a Young Poet",
+      author: "Rainer Maria Rilke",
+      description: "",
+      link: "https://www.amazon.com/Letters-Young-Poet-Penguin-Classics/dp/0141192321",
+    },
+    {
       title: "The Technological Republic",
       author: "Alex Karp",
       description:
