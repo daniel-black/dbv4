@@ -3,7 +3,8 @@ export const books = {
     {
       title: "Letters to a Young Poet",
       author: "Rainer Maria Rilke",
-      description: "",
+      description:
+        "This is the first bit of Rilke that I've read and I very much enjoyed it. Feels very real when he tells Kappus that only he can decide if he must write or if he can live without it. That seems correct to me - that it has to come from within you. My favorite line in all the letters is: 'Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage'.",
       link: "https://www.amazon.com/Letters-Young-Poet-Penguin-Classics/dp/0141192321",
     },
     {
