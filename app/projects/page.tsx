@@ -7,21 +7,40 @@ export const metadata: Metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
+    <main className="space-y-5 w-full mx-auto max-w-xl px-4 sm:px-0 pb-10 sm:py-10">
       <div className="space-y-3">
-        <h2 className="text-3xl font-semibold">Projects</h2>
+        <h1 className="text-3xl font-semibold">Projects</h1>
         <p className="text-muted-foreground">
           I am working on starting less and finishing more.
         </p>
       </div>
 
-      <div>
-        <ul>
+      <section>
+        <h2 className="sr-only">Project List</h2>
+        <ul className="space-y-4">
+          <li className="border border-dashed p-4">
+            <h3 className="text-xl font-semibold">Our Wedding Website</h3>
+            <a
+              href="https://danplussteph.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
+            >
+              danplussteph.com
+            </a>
+            <p className="text-muted-foreground mt-4">
+              Tried to flex my design muscles for this one. It&apos;s a picture
+              heavy site with one real feature around RSVPs. I like the way it
+              turned out.
+            </p>
+          </li>
+
           <li className="border border-dashed p-4">
             <h3 className="text-xl font-semibold">Gameboy Tracker</h3>
             <a
               href="https://gameboy-tracker.vercel.app"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
             >
               gameboy-tracker.vercel.app
@@ -32,15 +51,13 @@ export default function ProjectsPage() {
               Still under active development.
             </p>
           </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
+
           <li className="border border-dashed p-4">
             <h3 className="text-xl font-semibold">PDF Dark</h3>
             <a
               href="https://pdfdark.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
             >
               pdfdark.com
@@ -53,7 +70,7 @@ export default function ProjectsPage() {
             </p>
           </li>
         </ul>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
