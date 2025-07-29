@@ -20,18 +20,18 @@ export default function Home() {
           </p>
           <p>
             Outside of work, I enjoy getting outside and spending with my
-            beautiful fiance, Stephanie, and our anxious puppy dog, Nala.
+            beautiful fiance, Stephanie, and our pup, Nala.
           </p>
           <p>
-            I also enjoy reading and watching long, slow movies that there is
-            never enough time to watch in one sitting
+            I also like to read and watch long, slow movies that I never have
+            the time for.
           </p>
           <p>
             I love working on side projects and learning by doing. TypeScript
-            and JavaScript are my bread and butter. React is a lot of fun. I
-            just really like the web. I have a good bit of experience with C#
-            and dabble with Go from time to time. I like tinkering around with
-            frameworks like Next.js and Tanstack libraries.
+            and React are by bread and butter. I just really like the web. I
+            have a good bit of experience with C# and dabble with Go from time
+            to time. I like tinkering around with frameworks like Next.js and
+            Tanstack libraries.
           </p>
           <p>
             I&apos;ve been learning more about AWS recently and am intrigued by

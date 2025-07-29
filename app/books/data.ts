@@ -1,6 +1,20 @@
 export const books = {
   "2025": [
     {
+      title: "Battling to the End (Currently reading)",
+      author: "René Girard",
+      description:
+        "All of Girard's previous books look backwards in time. He examines myth, novels, religion, anthropology, etc. This is the first and only book in which he takes his theories and turns an eye towards man's future. He read Clausewitz's book 'On War' and was struck by its resonance with mimetic theory and reciprocal violence. Clausewitz said 'war is nothing but a duel at a larger scale'. Anyone familiar with Girard knows how the word 'duel' immediately set off the alarm bells in Girard's head. Girard does the classic Girard thing here of saying no the author actually saw things clearly at the outset and then, frightened to take their line of thought to its logical conclusion, backtracked and obfuscated what he had found. Clausewitz's concept of absolute war is what really strikes Girard. He saw that, now in a world with nuclear weapons, this conceptual idea of war can be realized. We actually can, for the first time, completely and utterly destroy our world. This is an entirely different ball game now. Girard is not really an optimist about this. He looks to the book of Revelations and sees Christianity predicting its own failure. With nuclear armed combatants learning on the big red buttons, maybe the only hope for the world is for one (and then all if we're to survive) to turn the other cheek and refuse to descend into the abyss of nuclear violence.",
+      link: "https://www.amazon.com/Battling-End-Conversations-Beno%C3%AEt-Chantre/dp/0870138774",
+    },
+    {
+      title: "I See Satan Fall Like Lightning (reread)",
+      author: "René Girard",
+      description:
+        "Wanted to come back to this one again. Girard is brilliant at drawing out the similarities between myth and biblical stories up until the very last crucial moment where the essential difference is revealed; that being that in myth, the victim is portrayed as actually guilty of the chaos or crisis endangering the community and that the violence done to the victim/scapegoat was justified. Christianity tells the story of persecution from the perspective of the victim and reveals the truth that the victim is innocent. The violence done by the mob is not justified. For the first time in history the voice of the victim is heard. This has a one-way door effect on us. We literally cannot go back to a victim-blind conception of the world. Once you see it you cannot unsee it. History has a direction.",
+      link: "https://www.amazon.com/See-Satan-Fall-Like-Lightning/dp/1570753199",
+    },
+    {
       title: "Letters to a Young Poet",
       author: "Rainer Maria Rilke",
       description:
