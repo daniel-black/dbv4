@@ -18,6 +18,15 @@ export default function BlogPage() {
         <ul className="list-disc list-inside space-y-2">
           <li className="flex flex-col gap-1">
             <Link
+              href="/blog/the-logic-of-reciprocity-and-the-logic-of-love"
+              className="text-blue-600 underline underline-offset-4"
+            >
+              The Logic of Reciprocity and the Logic of Love
+            </Link>
+            <span className="text-xs text-muted-foreground">8/4/2025</span>
+          </li>
+          <li className="flex flex-col gap-1">
+            <Link
               href="/blog/the-problem-with-book-apps"
               className="text-blue-600 underline underline-offset-4"
             >
