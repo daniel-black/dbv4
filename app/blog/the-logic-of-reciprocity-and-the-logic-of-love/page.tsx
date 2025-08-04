@@ -12,10 +12,11 @@ export default function TheLogicOfReciprocityAndTheLogicOfLove() {
         need to go if we are to live peacefully together on this planet.
       </p>
       <p>
-        Human desire is imitative, or mimetic. I figure out what I "want" by
-        observing my neighbor and imitating his desires. If many other people
-        desire the same object, I take that as even more proof that the object
-        truly is desirable. It signals to me that I "chose" well.
+        Human desire is imitative, or mimetic. I figure out what I
+        &quot;want&quot; by observing my neighbor and imitating his desires. If
+        many other people desire the same object, I take that as even more proof
+        that the object truly is desirable. It signals to me that I
+        &quot;chose&quot; well.
       </p>
       <p>
         We naturally understand where this leads. If the object is abundant,
