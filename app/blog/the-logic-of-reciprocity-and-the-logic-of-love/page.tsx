@@ -72,8 +72,8 @@ export default function TheLogicOfReciprocityAndTheLogicOfLove() {
         risk of existential reciprocal violence. Our technology has advanced
         faster than our moral evolution and that gap presents an existential
         danger. Yes we have justice systems and laws and even imaginary things
-        like "international law", but we have zero defenses, zero institutions,
-        that protect us from reciprocal nuclear war.
+        like &quot;international law&quot;, but we have zero defenses, zero
+        institutions, that protect us from reciprocal nuclear war.
       </p>
       <p>
         You might say, well what about nuclear deterrence? Hasn&apos;t that
@@ -89,7 +89,7 @@ export default function TheLogicOfReciprocityAndTheLogicOfLove() {
         in this new world. It used to be the case that you could temporarily end
         violence with an overwhelming response of violence. We fly at a
         different altitude now. There is no way to nuclear exchange your way to
-        peace. There just won't be anything left and the point is moot.
+        peace. There just won&apos;t be anything left and the point is moot.
       </p>
       <p>
         We rarely think about the apocalypse but when we do we tend to imagine
@@ -108,19 +108,19 @@ export default function TheLogicOfReciprocityAndTheLogicOfLove() {
         you will have inspired your adversary to do the same.
       </p>
       <p>
-        I am aware of how "pie in the sky" it sounds to say that the way to
-        prevent the apocalypse is to love your neighbor and love your enemies
-        but I do believe this is the only viable path. Reciprocal violence
-        certainly will not prevent annihilation. It cannot, definitionally and
-        in practice. Rational, enlightenment thinking won&apos;t save you
-        either. It is easy to sit down and draft a nice resolution in peace
-        time. It is precisely when you need that type of conflict resolution the
-        most, when all stand upon the brink of war, that rational thought is
-        nowhere to be found. It disappears at the very moment you need it the
-        most. As mentioned before, you cannot assemble an overwhelming surge of
-        force in a nuclear war. The floor is too high, it doesn&apos;t much
-        matter if it is 10 nuclear warheads or 100, no one will be left standing
-        at the end of it all.
+        I am aware of how &quot;pie in the sky&quot; it sounds to say that the
+        way to prevent the apocalypse is to love your neighbor and love your
+        enemies but I do believe this is the only viable path. Reciprocal
+        violence certainly will not prevent annihilation. It cannot,
+        definitionally and in practice. Rational, enlightenment thinking
+        won&apos;t save you either. It is easy to sit down and draft a nice
+        resolution in peace time. It is precisely when you need that type of
+        conflict resolution the most, when all stand upon the brink of war, that
+        rational thought is nowhere to be found. It disappears at the very
+        moment you need it the most. As mentioned before, you cannot assemble an
+        overwhelming surge of force in a nuclear war. The floor is too high, it
+        doesn&apos;t much matter if it is 10 nuclear warheads or 100, no one
+        will be left standing at the end of it all.
       </p>
       <p>
         To survive in the new world, it will take a universal refusal to engage
