@@ -1,3 +1,4 @@
+import { GamesDemo } from "@/components/games-demo";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,6 +19,25 @@ export default function ProjectsPage() {
       <section>
         <h2 className="sr-only">Project List</h2>
         <ul className="space-y-4">
+          <li className="border border-dashed p-4">
+            <h3 className="text-xl font-semibold">react-mini-games</h3>
+            <a
+              href="https://github.com/daniel-black/react-mini-games"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
+            >
+              github.com/daniel-black/react-mini-games
+            </a>
+            <p className="text-muted-foreground mt-4">
+              I had my employee (gpt-5) build an npm library that lets you
+              import mini games as React components. They&apos;re simple canvas
+              games and good for a fun not-found page or as an easter egg in
+              your site.
+            </p>
+            <GamesDemo />
+          </li>
+
           <li className="border border-dashed p-4">
             <h3 className="text-xl font-semibold">Our Wedding Website</h3>
             <a
