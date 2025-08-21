@@ -16,6 +16,15 @@ export default function BlogPage() {
       <div>
         <p>posts:</p>
         <ul className="list-disc list-inside space-y-2">
+          {/* <li className="flex flex-col gap-1">
+            <Link
+              href="/blog/how-to-read-like-girard"
+              className="text-blue-600 underline underline-offset-4"
+            >
+              How to Read Like Girard
+            </Link>
+            <span className="text-xs text-muted-foreground">8/21/2025</span>
+          </li> */}
           <li className="flex flex-col gap-1">
             <Link
               href="/blog/the-logic-of-reciprocity-and-the-logic-of-love"
