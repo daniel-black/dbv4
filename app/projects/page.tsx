@@ -20,6 +20,24 @@ export default function ProjectsPage() {
         <h2 className="sr-only">Project List</h2>
         <ul className="space-y-4">
           <li className="border border-dashed p-4">
+            <h3 className="text-xl font-semibold">Chiptunes Tracker</h3>
+            <a
+              href="https://chiptunes.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline underline-offset-4 hover:text-blue-600"
+            >
+              Chiptunes
+            </a>
+            <p className="text-muted-foreground mt-4">
+              A new and improved version of the Gameboy tracker app I previously
+              built. In this latest iteration, you can create multiple songs and
+              your progress is persisted to local storage so you don&apos;t have
+              to compose your masterpiece from scratch, in one go, each time.
+            </p>
+          </li>
+
+          <li className="border border-dashed p-4">
             <h3 className="text-xl font-semibold">react-mini-games</h3>
             <a
               href="https://github.com/daniel-black/react-mini-games"
@@ -68,7 +86,6 @@ export default function ProjectsPage() {
             <p className="text-muted-foreground mt-4">
               A tracker for creating music in the style of the Gameboy. The
               audio sythesis is all done in the browser with the Web Audio API.
-              Still under active development.
             </p>
           </li>
 
